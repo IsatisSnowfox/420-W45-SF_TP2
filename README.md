@@ -25,3 +25,6 @@ docker container run --name apache --network mon_reseau -p 8080:80 -d httpd:alpi
 docker container run--name mongodb --network mon_reseau -v mongodb -d -e MONGO_INITDB_ROOT_USERNAME=adminmongo -e MONGO_INITDB_ROOT_PASSWORD=EncoreUneAutreBD mongo:latest
 
 docker network inspect mon_reseau [Vérification du lien des conteneurs au réseau](img/docker-network-inspect.png)
+
+docker logs mongodb | grep mongoadmin [Création de l'utilisateur mongoadmin dans les logs](img/mongoadmin-creation-logs.png)
+
