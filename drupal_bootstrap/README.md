@@ -1,2 +1,2 @@
 ## Partie Bootstrap
-[Bootstrap introuvable](../img/bootstrap-not-working.png)
+[Bootstrap installé](../img/bootstrap-working.png)

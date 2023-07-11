@@ -28,3 +28,5 @@ docker network inspect mon_reseau [Vérification du lien des conteneurs au rése
 
 docker logs mongodb | grep mongoadmin [Création de l'utilisateur mongoadmin dans les logs](img/mongoadmin-creation-logs.png)
 
+## Partie Bootstrap
+[Bootstrap installé](img/bootstrap-working.png)
